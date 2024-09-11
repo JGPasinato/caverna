@@ -1,37 +1,64 @@
-body {
-    font-family: Arial, sans-serif;
+{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Garet', sans-serif;
+    font-weight: 800;
     padding: 0;
 }
 
 header {
-    background-color: #333;
-    color: white;
+    background-color: #21231F;
+    color: #f5e6ca;
     padding: 1rem;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: left;
+    margin-right: 35px;
 }
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    gap: 20px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
+nav li a {
     text-decoration: none;
+    font-family: "Garet", sans-serif;
+    font-size: 16px;
+    color: #f5e6ca;
 }
+
+nav li a:hover {
+    color: #ff6600;
+}
+
+header img {
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
 
 section {
     padding: 2rem;
     margin: 1rem;
+    font-family: 'Hagrid', serif; 
+    
 }
 
 section h2 {
+    font-family: 'Hagrid', serif; 
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
 }
@@ -41,6 +68,7 @@ footer {
     background-color: #333;
     color: white;
     padding: 1rem;
+    font-family: 'Hagrid', serif; /* Usando Hagrid no rodapé */
     position: relative;
     bottom: 0;
     width: 100%;
