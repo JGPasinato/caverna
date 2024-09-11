@@ -3,6 +3,8 @@ body {
     font-weight: 800;
     padding: 0;
     margin: 0; 
+    background-color: #21231F;
+    color: #f5e6ca;
 }
 
 header {
@@ -30,9 +32,10 @@ h1 {
     font-size: 36px;
     text-align: left;
     margin: 0;
-    margin-left: 10px;
+    margin-left: 1rem;
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
+    
 }
 
 nav ul {
