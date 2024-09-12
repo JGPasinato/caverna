@@ -17,8 +17,8 @@ header {
 }
 
 header img {
-    width: 90px;
-    height: 90px;
+    width: 93.3px;
+    height: 94.1px;
     margin-right: 10px;
     vertical-align: middle;
 }
@@ -29,7 +29,7 @@ header .logo-container {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 24px;
     text-align: left;
     margin: 0;
     margin-left: 1rem;
@@ -50,7 +50,7 @@ nav ul {
 nav li a {
     text-decoration: none;
     font-family: "Garet", sans-serif;
-    font-size: 20px;
+    font-size: 19px;
     color: #f5e6ca;
 }
 
@@ -62,12 +62,14 @@ section {
     padding: 2rem;
     margin: 1rem;
     font-family: 'Hagrid', serif; 
+    color: #f5e6ca;
 }
 
 section h2 {
-    font-family: 'Hagrid', serif; 
-    border-bottom: 2px solid #333;
+     font-family: 'Garet', sans-serif;
+    font-weight: 800;
     padding-bottom: 0.5rem;
+    color: #f5e6ca;
 }
 
 main figure{
@@ -77,6 +79,51 @@ main figure{
             display: block; 
             margin: 0; 
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Garet', sans-serif;
+    font-weight: 800;
+    margin: 20px;
+}
+
+.item img {
+    width: 169px;
+    height: 154px;
+}
+
+.line1, .line2 {
+    display: block;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: normal; 
+    margin: 0;
+    padding: 0; 
+}
+
+h2 {
+    line-height: 1.2; 
+}
+
+h1.Garid {
+    font-family: 'Garet', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
 
 footer {
     text-align: center;
@@ -89,3 +136,4 @@ footer {
     width: 100%;
     margin-top: auto; 
 }
+
