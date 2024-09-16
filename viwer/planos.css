@@ -1,208 +1,216 @@
 body {
-    font-family: 'Garet ExtraBold', sans-serif;
-    font-weight: 900;
-    padding: 0;
-    margin: 0; 
-    background-color: #21231F;
-    color: #f5e6ca;
+  font-family: 'Garet ExtraBold', sans-serif;
+  font-weight: 900;
+  padding: 0;
+  margin: 0; 
+  background-color: #21231F;
+  color: #f5e6ca;
 }
 
 header {
-    background-color: #21231F;
-    color: #f5e6ca;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #21231F;
+  color: #f5e6ca;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header img {
-    width: 93.3px;
-    height: 94.1px;
-    margin-right: 10px;
-    vertical-align: middle;
+  width: 93.3px;
+  height: 94.1px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 header .logo-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 h1 {
-    font-size: 24px;
-    text-align: left;
-    margin: 0;
-    margin-left: 1rem;
-    border-bottom: 2px solid #333;
-    padding-bottom: 0.5rem;
-    display: flex;
-    
+  font-size: 24px;
+  text-align: left;
+  margin: 0;
+  margin-left: 1rem;
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
+  display: flex;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
 }
 
 nav li a {
-    text-decoration: none;
-    font-family: "Garet", sans-serif;
-    font-size: 19px;
-    color: #f5e6ca;
+  text-decoration: none;
+  font-family: "Garet", sans-serif;
+  font-size: 19px;
+  color: #f5e6ca;
 }
 
 nav li a:hover {
-    color: #f3ad12;
+  color: #f3ad12;
 }
-h1{
-    font-size: 40px;
+
+h1 {
+  font-size: 40px;
 }
+
 /* cards aqui */
 .plan-card {
-    background: #fff;
-    width: 15rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    border-radius: 10px;
-    border-bottom: 4px solid #274600;
-    box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
-    font-family: "Garet ExtraBold", sans-serif;
-    font-weight: bolder;
-    display: inline-block;
-  }
-  
-  .plan-card h2 {
-    margin-bottom: 15px;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #f3ad12;
-  }
-  
-  .plan-card h2 span {
-    display: block;
-    margin-top: -4px;
-    color: #4d4d4d;
-    font-size: 16px;
-    font-weight: 400;
-  }
-  
-  .etiquet-price {
-    position: relative;
-    background: #f3ad12;
-    width: 14.46rem;
-    margin-left: -0.65rem;
-    padding: .2rem 1.2rem;
-    border-radius: 5px 0 0 5px;
-  }
-  
-  .etiquet-price p {
-    margin: 0;
-    padding-top: .4rem;
-    display: flex;
-    font-size: 1.9rem;
-    font-weight: bolder;
-    color: #fff;
-  }
-  
-  .etiquet-price p:before {
-    content: "R$";
-    margin-right: 5px;
-    font-size: 15px;
-    font-weight: bolder;
-    color: #fff;
-  }
-  
-  .etiquet-price p:after {
-    content: ;
-    margin-left: 5px;
-    font-size: 15px;
-    font-weight: 300;
-  }
-  
-  .etiquet-price div {
-    position: absolute;
-    bottom: -23px;
-    right: 0px;
-    width: 0;
-    height: 0;
-    border-top: 13px solid #c58102;
-    border-bottom: 10px solid transparent;
-    border-right: 13px solid transparent;
-    z-index: -6;
-  }
-  
-  .benefits-list {
-    margin-top: 16px;
-  }
-  
-  .benefits-list ul {
-    padding: 0;
-    font-size: 14px;
-  }
-  
-  .benefits-list ul li {
-    color: #4d4d4d;
-    list-style: none;
-    margin-bottom: .2rem;
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-  }
-  
-  .benefits-list ul li svg {
-    width: .9rem;
-    fill: currentColor;
-  }
-  
-  .benefits-list ul li span {
-    font-weight: 300;
-  }
-  
-  .button-get-plan {
-    display: flex;
-    justify-content: center;
-    margin-top: 1.2rem;
-  }
-  
-  .button-get-plan a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #f3ad12;
-    color: #fff;
-    padding: 10px 15px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: .8rem;
-    letter-spacing: .05rem;
-    font-weight: 700;
-    transition: all 0.3s ease;
-  }
-  
-  .button-get-plan a:hover {
-    transform: translateY(-3%);
-    box-shadow: 0 3px 10px rgba(207, 212, 222, 0.9);
-  }
-  
-  .button-get-plan .svg-rocket {
-    margin-right: 10px;
-    width: .9rem;
-    fill: currentColor;
-  }
+  background: #fff;
+  width: 15rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  border-bottom: 4px solid #274600;
+  box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
+  font-family: "Garet ExtraBold", sans-serif;
+  font-weight: bolder;
+  display: inline-block;
+  cursor: pointer;
+  transition: 400ms;
+}
 
-  footer {
-    text-align: center;
-    background-color: #333;
-    color: white;
-    padding: 1rem;
-    font-family: 'Hagrid', serif;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: auto; 
+/* Adicionado o efeito de blur ao cartão não selecionado */
+.plan-card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.plan-card-container:hover .plan-card:not(:hover) {
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+
+.plan-card h2 {
+  margin-bottom: 15px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #f3ad12;
+}
+
+.plan-card h2 span {
+  display: block;
+  margin-top: -4px;
+  color: #4d4d4d;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.etiquet-price {
+  position: relative;
+  background: #f3ad12;
+  width: 14.46rem;
+  margin-left: -0.65rem;
+  padding: .2rem 1.2rem;
+  border-radius: 5px 0 0 5px;
+}
+
+.etiquet-price p {
+  margin: 0;
+  padding-top: .4rem;
+  display: flex;
+  font-size: 1.9rem;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.etiquet-price p:before {
+  content: "R$";
+  margin-right: 5px;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.etiquet-price div {
+  position: absolute;
+  bottom: -23px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid #c58102;
+  border-bottom: 10px solid transparent;
+  border-right: 13px solid transparent;
+  z-index: -6;
+}
+
+.benefits-list {
+  margin-top: 16px;
+}
+
+.benefits-list ul {
+  padding: 0;
+  font-size: 14px;
+}
+
+.benefits-list ul li {
+  color: #4d4d4d;
+  list-style: none;
+  margin-bottom: .2rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.benefits-list ul li svg {
+  width: .9rem;
+  fill: currentColor;
+}
+
+.benefits-list ul li span {
+  font-weight: 300;
+}
+
+.button-get-plan {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+
+.button-get-plan a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3ad12;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: .8rem;
+  letter-spacing: .05rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.button-get-plan a:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 3px 10px rgba(207, 212, 222, 0.9);
+}
+
+.button-get-plan .svg-rocket {
+  margin-right: 10px;
+  width: .9rem;
+  fill: currentColor;
+  filter: blur(10px);
+  transform: scale(0.9, 0.9);
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  font-family: 'Hagrid', serif;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
 }
