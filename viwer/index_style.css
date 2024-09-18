@@ -36,9 +36,7 @@ h1 {
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
     display: flex;
-    
 }
-
 nav ul {
     list-style: none;
     display: flex;
@@ -137,7 +135,8 @@ h1.Garid {
     font-size: 22px;
     line-height: 1.6;
     color: #f5e6ca;
-    margin-bottom: 20px;
+    width: 50%; /* Define a largura como metade do contêiner */
+    overflow: hidden;
 }
 
 .quem-somos a {
@@ -154,14 +153,16 @@ h1.Garid {
 }
 
 .quem-somos a:hover {
-    background-color: #d84b14;
+    background-color: #f3ad12;
 }
 
 .quem-somos img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
+    display:block;
+    height: 350px;
+    margin-left: 900px;
+    position: absolute;
+    top: 1530px; 
+    right: 200px;
 }
 
 /* Estilos para a seção 'Nossa História' com fundo laranja e itens à esquerda com bolinha */
@@ -180,20 +181,13 @@ h1.Garid {
     text-align: left; /* Alinhar texto à esquerda */
 }
 
-.nossa-historia .bolinha {
-    width: 150px;
-    height: 150px;
-    background-color: #f5e6ca; /* Cor da bolinha */
-    border-radius: 50%;
-    flex-shrink: 0;
-}
-
 .nossa-historia h2 {
     font-family: 'Garet', sans-serif;
     font-weight: 800;
     font-size: 57.7px;
     color: #f5e6ca;
     margin-bottom: 20px;
+    margin-left: 650px;
 }
 
 .nossa-historia p {
@@ -201,18 +195,35 @@ h1.Garid {
     font-size: 22px;
     line-height: 1.6;
     color: #f5e6ca;
-    margin-bottom: 20px;
+    width: 50%; /* Define a largura como metade do contêiner */
+    overflow: hidden;
+    margin-left: 650px;
 }
 
 .nossa-historia img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin-left: 0;
+    display:block;
+    height: 350px;
+    margin-left: 900px;
+    position: absolute;
+    top: 1880px; 
+    left: -750px;
+}
+.nossa-historia a
+{
+    display: inline-block;
+    font-family: 'Garet', sans-serif;
+    font-weight: 800; /* ExtraBold */
+    font-size: 29px;
+    text-decoration: none;
+    color: #d84b14;
+    background-color: #f5e6ca;
+    padding: 10px 20px;
+    border-radius: 19px;
+    transition: background-color 0.3s ease;
+    margin-left: 645px;
 }
 
 
-.nossa-historia a, 
 .o-que-e-boulder a {
     display: inline-block;
     font-family: 'Garet', sans-serif;
@@ -228,7 +239,7 @@ h1.Garid {
 
 .nossa-historia a:hover, 
 .o-que-e-boulder a:hover {
-    background-color: #d84b14;
+    background-color: #f3ad12;
 }
 
 
@@ -245,14 +256,17 @@ h1.Garid {
     font-size: 22px;
     line-height: 1.6;
     color: #f5e6ca;
-    margin-bottom: 20px;
+    width: 50%; /* Define a largura como metade do contêiner */
+    overflow: hidden;
 }
 
 .o-que-e-boulder img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
+    display:block;
+    height: 350px;
+    margin-left: 900px;
+    position: absolute;
+    top: 2260px; 
+    right: 200px;
 }
 
 
@@ -272,11 +286,7 @@ h1.Garid {
     --color-esqueleto:#EFF3F5;
 }
 
-header{
-    width: 100%;
-    height: 60px;
-    background: var(--color-esqueleto);
-}
+
 
 .cover{
     width: 100%;
@@ -302,76 +312,3 @@ header{
     margin: 20px;
 }
 
-/*Aquí debajo va el FOOTER*/
-
-footer{
-    width: 100%;
-    padding: 50px 0px;
-    background-image: url(../Images/background-footer.svg);
-    background-size: cover;
-}
-
-.container__footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
-    margin-top: 100px;
-}
-
-.box__footer{
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-}
-
-.box__footer .logo img{
-    width: 180px;
-}
-
-.box__footer .terms{
-    max-width: 350px;
-    margin-top: 20px;
-    font-weight: 500;
-    color: #7a7a7a;
-    font-size: 18px;
-}
-
-.box__footer h2{
-    margin-bottom: 30px;
-    color: #343434;
-    font-weight: 700;
-}
-
-.box__footer a{
-    margin-top: 10px;
-    color: #7a7a7a;
-    font-weight: 600;
-}
-
-.box__footer a:hover{
-    opacity: 0.8;
-}
-
-.box__footer a .fab{
-    font-size: 20px;
-}
-
-.box__copyright{
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    padding: 0px 40px;
-}
-
-.box__copyright p{
-    margin-top: 20px;
-    color: #7a7a7a;
-}
-
-.box__copyright hr{
-    border: none;
-    height: 1px;
-    background-color: #7a7a7a;
-}
