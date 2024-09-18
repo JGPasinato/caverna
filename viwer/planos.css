@@ -59,34 +59,40 @@ nav li a:hover {
 
 h1 {
   font-size: 40px;
+  margin-top: 20px;
+  margin-left: 50px;
 }
 
 /* cards aqui */
 .plan-card {
   background: #fff;
   width: 15rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 6px;
+  padding-bottom: 30px;
   border-radius: 10px;
   border-bottom: 4px solid #274600;
   box-shadow: 0 6px 30px rgba(207, 212, 222, 0.3);
   font-family: "Garet ExtraBold", sans-serif;
   font-weight: bolder;
-  display: inline-block;
   cursor: pointer;
   transition: 400ms;
+  margin: 10px;
+  display: inline-block;
+  margin-left: 50px;
 }
 
 /* Adicionado o efeito de blur ao cartão não selecionado */
 .plan-card:hover {
   transform: scale(1.1, 1.1);
+  
 }
 
 .plan-card-container:hover .plan-card:not(:hover) {
   filter: blur(10px);
   transform: scale(0.9, 0.9);
+
 }
 
 .plan-card h2 {
@@ -173,6 +179,7 @@ h1 {
   display: flex;
   justify-content: center;
   margin-top: 1.2rem;
+
 }
 
 .button-get-plan a {
