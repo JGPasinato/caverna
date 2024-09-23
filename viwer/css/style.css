@@ -311,3 +311,36 @@ h1.Garid {
     margin: 20px;
 }
 
+footer {
+    background-color: #21231F; /* Cor de fundo escura */
+    color: #f5e6ca; /* Texto branco */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+    font-family: 'Garrick', sans-serif;
+    font-size: 16px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: inline-flex;
+}
+
+.social-links li {
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #E95A19; /* Cor laranja dos detalhes */
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-links a:hover {
+    color: #fff; /* Muda para branco no hover */
+}
