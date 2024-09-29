@@ -163,12 +163,9 @@ h1.Garid {
 }
 
 .quem-somos img {
-    display:block;
     height: 350px;
-    margin-left: 900px;
-    position: absolute;
-    top: 1530px; 
-    right: 200px;
+    display: flex;
+    
 }
 
 /* Estilos para a seção 'Nossa História' com fundo laranja e itens à esquerda com bolinha */
@@ -207,7 +204,7 @@ h1.Garid {
 }
 
 .nossa-historia img {
-    display:block;
+    display:flex;
     height: 350px;
     margin-left: 900px;
     position: absolute;
@@ -246,6 +243,7 @@ h1.Garid {
 .nossa-historia a:hover, 
 .o-que-e-boulder a:hover {
     background-color: #f3ad12;
+    display: flex;
 }
 
 
