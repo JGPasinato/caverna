@@ -130,19 +130,23 @@ h1.Garid {
 /* Estilos para a seção QUEM SOMOS */
 .quem-somos h2 {
     font-family: 'Garet', sans-serif;
-    font-weight: 800; /* ExtraBold */
+    font-weight: 800;
     font-size: 57.7px;
     color: #f5e6ca;
     margin-bottom: 20px;
+    margin: 1rem;
 }
 
 .quem-somos p {
-    font-family: 'Hagrid', serif;
+    font-family: 'Garet', sans-serif;
+    font-weight: normal;
     font-size: 22px;
     line-height: 1.6;
     color: #f5e6ca;
-    width: 50%; /* Define a largura como metade do contêiner */
+    width: 50%; 
     overflow: hidden;
+    margin-bottom: 20px;
+    margin: 1rem;
 }
 
 .quem-somos a {
@@ -156,6 +160,8 @@ h1.Garid {
     padding: 10px 20px;
     border-radius: 19px;
     transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+    margin: 1rem;
 }
 
 .quem-somos a:hover {
@@ -163,14 +169,12 @@ h1.Garid {
 }
 
 .quem-somos img {
-    display:block;
+    display: block;
     height: 350px;
-    margin-left: 900px;
+    left: 400px;
     position: absolute;
-    top: 1530px; 
-    right: 200px;
+    top: 1330px;
 }
-
 /* Estilos para a seção 'Nossa História' com fundo laranja e itens à esquerda com bolinha */
 .nossa-historia {
     background-color: #e95a19; /* Fundo laranja */
@@ -197,22 +201,23 @@ h1.Garid {
 }
 
 .nossa-historia p {
-    font-family: 'Hagrid', serif;
+    font-family: 'Garet', sans-serif;
+    font-weight: normal;
     font-size: 22px;
     line-height: 1.6;
     color: #f5e6ca;
-    width: 50%; /* Define a largura como metade do contêiner */
+    width: 50%; 
     overflow: hidden;
+    margin-bottom: 20px;
     margin-left: 650px;
 }
 
 .nossa-historia img {
-    display:block;
+    display: block;
     height: 350px;
-    margin-left: 900px;
+    right: 500px;
     position: absolute;
-    top: 1880px; 
-    left: -750px;
+    top: 1720px;
 }
 .nossa-historia a
 {
@@ -221,30 +226,16 @@ h1.Garid {
     font-weight: 800; /* ExtraBold */
     font-size: 29px;
     text-decoration: none;
-    color: #d84b14;
-    background-color: #f5e6ca;
+    color: #e95a19;
+    background-color:#f5e6ca ;
     padding: 10px 20px;
     border-radius: 19px;
     transition: background-color 0.3s ease;
+    margin-bottom: 30px;
     margin-left: 645px;
 }
 
-
-.o-que-e-boulder a {
-    display: inline-block;
-    font-family: 'Garet', sans-serif;
-    font-weight: 800; /* ExtraBold */
-    font-size: 29px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #e95a19;
-    padding: 10px 20px;
-    border-radius: 19px;
-    transition: background-color 0.3s ease;
-}
-
-.nossa-historia a:hover, 
-.o-que-e-boulder a:hover {
+.nossa-historia a:hover {
     background-color: #f3ad12;
 }
 
@@ -255,24 +246,27 @@ h1.Garid {
     font-size: 57.7px;
     color: #f5e6ca;
     margin-bottom: 20px;
+    margin: 1rem;
 }
 
 .o-que-e-boulder p {
-    font-family: 'Hagrid', serif;
+    font-family: 'Garet', sans-serif;
+    font-weight: normal;
     font-size: 22px;
     line-height: 1.6;
     color: #f5e6ca;
-    width: 50%; /* Define a largura como metade do contêiner */
+    width: 50%; 
     overflow: hidden;
+    margin-bottom: 20px;
+    margin: 1rem;
 }
 
 .o-que-e-boulder img {
-    display:block;
+    display: block;
     height: 350px;
-    margin-left: 900px;
+    left: 400px;
     position: absolute;
-    top: 2260px; 
-    right: 200px;
+    top: 2150px;
 }
 
 
@@ -363,3 +357,29 @@ h1.Garid {
 }
 
 img{width: 100%;}
+
+.mapa h2 {
+    font-family: 'Garet', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    color: #f5e6ca;
+    margin-bottom: 20px;
+    margin-left: 6px;
+    margin: 1rem;
+}
+
+footer {
+    background-color: #21231F; 
+    color: #f5e6ca;
+    padding: 2rem;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  footer p {
+    font-family: 'Garet', sans-serif;
+    font-weight: normal;
+    font-size: 18px; 
+    margin: 0; 
+  }
