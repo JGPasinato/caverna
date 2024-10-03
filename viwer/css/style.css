@@ -122,7 +122,7 @@ h2 {
 h1.Garid {
     font-family: 'Garet', sans-serif;
     font-weight: 800;
-    font-size: 36px;
+    font-size: 57.7px;
     text-align: center;
     margin-bottom: 40px;
 }
@@ -173,7 +173,7 @@ h1.Garid {
     height: 350px;
     left: 400px;
     position: absolute;
-    top: 1330px;
+    top: 1400px;
 }
 /* Estilos para a seção 'Nossa História' com fundo laranja e itens à esquerda com bolinha */
 .nossa-historia {
@@ -208,36 +208,18 @@ h1.Garid {
     color: #f5e6ca;
     width: 50%; 
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     margin-left: 650px;
 }
 
 .nossa-historia img {
     display: block;
     height: 350px;
-    right: 500px;
+    right: 700px;
     position: absolute;
-    top: 1720px;
-}
-.nossa-historia a
-{
-    display: inline-block;
-    font-family: 'Garet', sans-serif;
-    font-weight: 800; /* ExtraBold */
-    font-size: 29px;
-    text-decoration: none;
-    color: #e95a19;
-    background-color:#f5e6ca ;
-    padding: 10px 20px;
-    border-radius: 19px;
-    transition: background-color 0.3s ease;
-    margin-bottom: 30px;
-    margin-left: 645px;
+    top: 1760px;
 }
 
-.nossa-historia a:hover {
-    background-color: #f3ad12;
-}
 
 
 .o-que-e-boulder h2 {
@@ -266,7 +248,7 @@ h1.Garid {
     height: 350px;
     left: 400px;
     position: absolute;
-    top: 2150px;
+    top: 2170px;
 }
 
 
