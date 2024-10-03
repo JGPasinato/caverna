@@ -1,11 +1,12 @@
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
+  font-family: 'Garet', sans-serif;
+  font-weight: 800;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f5f5f5;
+  background-color: #21231F;
 }
+
 header {
   background-color: #21231F;
   color: #f5e6ca;
@@ -57,7 +58,6 @@ nav li a:hover {
 
 
 .product-card {
-  display: flex;
   flex-direction: column;
   background-color: #fff;
   border-radius: 15px;
@@ -65,6 +65,8 @@ nav li a:hover {
   padding: 20px;
   width: 300px;
   height: auto;
+  margin: 15px;
+  display: inline-block
 }
 
 .product-image img {
@@ -82,14 +84,16 @@ nav li a:hover {
 
 .product-title {
   font-size: 24px;
-  font-weight: bold;
   margin: 0;
+  font-family: 'Garet', sans-serif;
+  font-weight: 800;
 }
 
 .product-price {
   font-size: 20px;
+  font-family: 'Garet', sans-serif;
+  font-weight: bolder;
   color: #E95A19;
-  font-weight: bold;
 }
 
 .color-buttons, .gender-options {
@@ -110,21 +114,38 @@ select {
   padding: 5px;
   margin-bottom: 10px;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #f5e6ca;
 }
 
 .order-button {
-  background-color: #25D366;
-  color: white;
+  background-color: #E95A19;
+  color: #f5e6ca;
   border: none;
   padding: 10px;
   border-radius: 10px;
   font-size: 16px;
   cursor: pointer;
   margin-top: 15px;
+  font-family: 'Garet', sans-serif;
+  font-weight: 800;
 }
 
 .order-button:hover {
-  background-color: #1ebe57;
+  background-color: #f3ad1f ;
 }
 
+footer {
+  background-color: #21231F; 
+  color: #f5e6ca;
+  padding: 2rem;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+footer p {
+  font-family: 'Garet', sans-serif;
+  font-weight: normal;
+  font-size: 18px; 
+  margin: 0; 
+}
