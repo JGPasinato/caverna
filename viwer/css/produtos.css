@@ -73,6 +73,8 @@ nav li a:hover {
   width: 100%;
   height: auto;
   border-radius: 15px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 
 .product-details {
