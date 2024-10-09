@@ -59,14 +59,14 @@ nav li a:hover {
 
 .product-card {
   flex-direction: column;
-  background-color: #fff;
+  background-color: #f5f5ee;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   width: 300px;
   height: auto;
   margin: 15px;
-  display: inline-block
+  display: inline-block;
 }
 
 .product-image img {
@@ -74,7 +74,6 @@ nav li a:hover {
   height: auto;
   border-radius: 15px;
   aspect-ratio: 3/2;
-  object-fit: contain;
 }
 
 .product-details {
