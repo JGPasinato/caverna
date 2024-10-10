@@ -116,9 +116,6 @@ main figure{
     padding: 0; 
 }
 
-h2 {
-    line-height: 1.2; 
-}
 
 h1.Garid {
     font-family: 'Garet', sans-serif;
@@ -138,7 +135,7 @@ h1.Garid {
 }
 
 .reverse-layout {
-    flex-direction: row-reverse; /* Altera a ordem para texto à direita e imagem à esquerda */
+    flex-direction: row-reverse; 
 }
 
 .flex-container .texto {
@@ -163,11 +160,15 @@ h1.Garid {
     border-radius: 19px;
     transition: background-color 0.3s ease;
     margin-bottom: 30px;
-    margin: 1rem;
+    margin: 0.5rem;
 }
 
 .texto a:hover {
     background-color: #f3ad12;
+}
+
+.texto .h2{
+    font-size: 24px;
 }
 
 
