@@ -8,11 +8,10 @@ body {
     overflow-x: hidden;
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1439px)
-
-html {
-    max-width: 1920px !important;
-    
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+    html {
+        max-width: 1920px;
+    }
 }
 
 header {
@@ -86,10 +85,10 @@ section h2 {
 
 main figure{
     width: 100vw; 
-            height: auto; 
-            object-fit: cover; 
-            display: block; 
-            margin: 0; 
+    height: auto; 
+    object-fit: cover; 
+    display: block; 
+    margin: 0; 
 }
 
 .container {
