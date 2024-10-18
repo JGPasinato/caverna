@@ -73,7 +73,7 @@ nav li a:hover {
   width: 100%;
   height: auto;
   border-radius: 15px;
-  aspect-ratio: 3/2;
+  aspect-ratio: 6/8;
 <<<<<<< HEAD
 =======
   object-fit: contain;
@@ -100,27 +100,6 @@ nav li a:hover {
   font-family: 'Garet', sans-serif;
   font-weight: bolder;
   color: #E95A19;
-}
-
-.color-buttons, .gender-options {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-}
-
-.color-btn, .gender-btn {
-  width: 80px;
-  height: 30px;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-select {
-  padding: 5px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  border: 1px solid #f5e6ca;
 }
 
 .order-button {
