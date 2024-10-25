@@ -29,3 +29,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       });
   });
 });
+
+
+// Script para alternar a exibição do menu
+document.getElementById('menu-toggle').addEventListener('click', function () {
+  const navbar = document.getElementById('navbar');
+  navbar.style.display = navbar.style.display === 'block' ? 'none' : 'block';
+});
