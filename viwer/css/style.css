@@ -9,7 +9,10 @@ body {
 }
 html{
 scroll-behavior: smooth;
+overflow-x: hidden;
 }
+
+
 
 header {
     background-color: #21231F;
@@ -151,24 +154,8 @@ h1.Garid {
     right: 500px;
 }
 
-.texto a {
-    display: inline-block;
-    font-family: 'Garet', sans-serif;
-    font-weight: 800; /* ExtraBold */
-    font-size: 29px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #e95a19;
-    padding: 10px 20px;
-    border-radius: 19px;
-    transition: background-color 0.3s ease;
-    margin-bottom: 30px;
-    margin: 0.5rem;
-}
 
-.texto a:hover {
-    background-color: #f3ad12;
-}
+
 
 .texto .h2{
     font-size: 24px;
@@ -291,7 +278,8 @@ footer {
     padding: 2rem;
     display: flex; 
     justify-content: space-between; 
-    align-items: center; 
+    align-items: center;
+    flex-wrap: wrap;
   }
   
   footer p {
@@ -300,3 +288,20 @@ footer {
     font-size: 18px; 
     margin: 0; 
   }
+
+  .map-container {
+    position: relative;
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding-bottom: 56.25%; /* Mantém uma proporção de 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ajusta-se à largura do contêiner */
+    height: 100%; /* Ajusta-se à altura proporcional */
+    border: 0;
+}
