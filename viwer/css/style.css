@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-    font-size: 42px;
+    
 }
 
 nav ul {
@@ -84,10 +84,10 @@ section h2 {
 }
 
 main figure{
-    width: 100vw; 
+    width: 100%; 
     height: auto; 
     object-fit: cover; 
-    display: block; 
+    display: flex; 
     margin: 0; 
 }
 
@@ -114,7 +114,7 @@ main figure{
 }
 
 .line1, .line2 {
-    display: block;
+    display: flex;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: normal; 
@@ -136,7 +136,7 @@ h1.Garid {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    
     padding: 2rem;
 }
 
@@ -215,7 +215,7 @@ h1.Garid {
     overflow: hidden;
     width: 100%;
     margin: 0px auto;
-    height: 780px; 
+    
     
     
 }
@@ -293,15 +293,13 @@ footer {
     position: relative;
     width: 100%; /* Ocupa toda a largura disponível */
     padding-bottom: 56.25%; /* Mantém uma proporção de 16:9 */
-    height: 0;
+   
     overflow: hidden;
 }
 
 .map-container iframe {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%; /* Ajusta-se à largura do contêiner */
     height: 100%; /* Ajusta-se à altura proporcional */
-    border: 0;
+
 }
