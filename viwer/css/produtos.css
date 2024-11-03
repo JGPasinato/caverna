@@ -7,6 +7,11 @@ body {
   background-color: #21231F;
 }
 
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  }
+
 header {
   background-color: #21231F;
   color: #f5e6ca;
@@ -14,6 +19,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 
 header img {

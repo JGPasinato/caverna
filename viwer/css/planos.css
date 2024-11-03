@@ -16,6 +16,11 @@ header {
   flex-direction: column;
 }
 
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  }
+
 header img {
   width: 93.3px;
   height: 94.1px;
