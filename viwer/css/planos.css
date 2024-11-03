@@ -13,6 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
 }
 
 header img {
@@ -43,6 +44,7 @@ nav ul {
   gap: 20px;
   padding: 0;
   margin: 0;
+  margin-top: 1rem;
 }
 
 nav li a {
