@@ -80,8 +80,7 @@ nav li a:hover {
   height: auto;
   border-radius: 15px;
   aspect-ratio: 8/6;
-  object-fit: contain;
-  img: 100%;
+  object-fit: cover;
 }
 
 .product-details {
