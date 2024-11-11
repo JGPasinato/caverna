@@ -40,15 +40,14 @@ header .logo-container {
 
 h1 {
     font-size: 24px;
-    text-align: left;
-    margin: 0;
     border-bottom: 2px solid #333;
     padding-bottom: 0.5rem;
     display: flex;
 }
 
 h2 {
-    
+    font-size: 35px;
+    font-weight: bolder;
 }
 
 nav ul {
