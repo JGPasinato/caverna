@@ -92,6 +92,12 @@ main figure{
     margin: 0; 
 }
 
+.icon {
+    width: 100px;
+    height: auto;
+    
+  }
+
 .container {
     display: flex;
     justify-content: space-around;
